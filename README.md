@@ -17,26 +17,15 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
---
 -- 数据库： `enterprise`
---
 
--- --------------------------------------------------------
-
---
--- 表的结构 `announcement`
---
-
-CREATE TABLE `announcement` (
-  `id` int(8) NOT NULL,
-  `details` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
 -- 转存表中的数据 `announcement`
---
+
 
 INSERT INTO `announcement` (`id`, `details`) VALUES
+|id|details|
+|:--:|:--:|
+|1|2019年4月3日周三下午5：25|
 (1, '2019年4月3日周三下午5：25');
 
 -- --------------------------------------------------------
