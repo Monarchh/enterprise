@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>LqhHome注册登录</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900'>
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+<div class="container">
+  <div class="info">
+    <img src="../image/logo.PNG" style="width: 300px">
+  </div>
+</div>
+<div class="form">
+  <div class="thumbnail"><img src="css/hat.svg"/></div>
+
+
+
+  <form class="register-form" action="zhuce.php" method="post">
+    <input name="zh" type="text" placeholder="用户账号"/>
+    <input name="pd" type="password" placeholder="输入密码"/>
+    <input name="pwd" type="password" placeholder="确认密码"/>
+    <input name="email" type="text" placeholder="邮箱地址"/>
+    <button>创建</button>
+    <p class="message">已经有账号了? <a href="#">登录</a></p>
+  </form>
+
+
+
+  <form class="login-form" method="post" action="denglu.php">
+    <input type="text" name="zh2" placeholder="用户账号"/>
+    <input type="password" name="pd2" placeholder="用户密码"/>
+
+    <button>登录</button>
+    <p class="message">没有注册用户? <a href="#">创建新用户</a></p>
+  </form>
+
+
+</div>
+
+<script src='js/jquery.min.js'></script>
+
+<script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
